@@ -35,7 +35,7 @@
 【配置文件】
 Debug       3   //日志级别，1 error 2 fatal 3 debug
 LogFile     $HOME/log/nettest.%Y%m%d  //日志文件
-HostPort    7788    //端口
+HostPort    7788    //端口 
 TimeOut     5  //接收超时控制，目前程序在接收超时后会继续接收，可根据需要改变接收超时的行为，如断开连接
 
 【备注】
