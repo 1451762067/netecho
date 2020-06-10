@@ -7,9 +7,8 @@ VERSION	= 1.0.1
 DATE	= `date +%y%m%d`
 BAK_LST= $(shell ls)
 
-SUBDIRS	= makeinc lib_s cmdsrv hsmsrv Ltcpsw stcpnac httpsw httpagt monSrv \
-		  WsSrvP chktk casrv mgsubca subcad zkdh0002 zkdh0010 genrsakey \
-		  genwcsr funsrv keysrv mgcuskey dayend procKeyFile mgtiskey
+SUBDIRS	= makeinc lib_s nettest
+		  
 BIN_LST = 
 
 default:: $(SUBDIRS)
