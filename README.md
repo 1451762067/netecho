@@ -32,7 +32,7 @@
 没有指定配置文件时的缺省配置文件，你也可以通过命令行自己指定配置文件，如 nettest -f mycfg.ini
 日志：运行后将在$HOME/log生成以日期为后缀的日志文件，日志文件隔天自动重新生成
 
-【配置文件】
+【配置文件】 
 Debug       3   //日志级别，1 error 2 fatal 3 debug
 LogFile     $HOME/log/nettest.%Y%m%d  //日志文件
 HostPort    7788    //端口 
